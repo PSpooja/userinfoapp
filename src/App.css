@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+table {
+  margin: 5rem auto;
+  border-radius: 1rem;
+  border: 1rem solid #61dafb;
+  border-collapse: collapse;
+  overflow: hidden;
+  max-width: 100 rem;
+}
+
+th, thead, td {
+  border: 1px solid #282c34;
+  padding: 1.5rem;
+  line-height: 1.7;
+}
+
+td {
+  font-size: 1.4rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
